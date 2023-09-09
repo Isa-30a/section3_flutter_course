@@ -16,8 +16,6 @@ class Purple extends StatelessWidget {
           children: [
             Image.asset(
               'assets/images/quiz-logo.png',
-              width: 400,
-              height: 400,
             ),
             const SizedBox(height: 40),
             Text(

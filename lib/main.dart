@@ -10,12 +10,17 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Purple('Learn Flutter the fun way!'),
-        ),
-      ),
+          appBar: AppBar(
+            toolbarHeight: 0,
+            shadowColor: Colors.transparent,
+            backgroundColor: const Color.fromARGB(255, 131, 19, 151),
+          ),
+          body: const Center(
+            child: Purple('Learn Flutter the fun way!'),
+          ),
+          backgroundColor: const Color.fromARGB(255, 131, 19, 151)),
     );
   }
 }

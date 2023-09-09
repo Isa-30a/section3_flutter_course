@@ -16,7 +16,7 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 assets:
-  -'assets/images/*'
+  -'assets/images/quiz-logo.png'
   
 flutter:
   uses-material-design: true

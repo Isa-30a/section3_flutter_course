@@ -14,17 +14,16 @@ class Purple extends StatelessWidget {
           Image.asset(
             'assets/images/quiz-logo.png',
             width: 300,
-            height: 300,
           ),
-          const SizedBox(height: 100),
+          const SizedBox(height: 80),
           Text(
             message,
             style: const TextStyle(
-              fontSize: 30,
-              color: Colors.white,
+              fontSize: 24,
+              color: Color.fromARGB(255, 242, 235, 255),
             ),
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 30),
           OutlinedButton(
             onPressed: () {
               print('yes');

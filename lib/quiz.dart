@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:section3_flutter_course/Purple.dart';
+import 'package:section3_flutter_course/start_screen.dart';
 
 class Quiz extends StatefulWidget {
   const Quiz({super.key});
@@ -25,7 +25,7 @@ class _QuizState extends State<Quiz> {
               end: Alignment.bottomRight,
             ),
           ),
-          child: Purple(),
+          child: const Purple(),
         ),
       ),
     );

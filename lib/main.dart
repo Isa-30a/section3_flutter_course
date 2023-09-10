@@ -1,15 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Purple.dart';
+import 'package:section3_flutter_course/quiz.dart';
 
 void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return;
-  }
+  runApp(const Quiz());
 }

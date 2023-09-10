@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Purple extends StatelessWidget {
-  const Purple(String message, {super.key});
+  const Purple({super.key});
 
   final String message = 'Learn Flutter the fun way!';
 

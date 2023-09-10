@@ -25,16 +25,9 @@ class Purple extends StatelessWidget {
           ),
           const SizedBox(height: 30),
           OutlinedButton(
-            onPressed: () {
-              print('yes');
-            },
+            onPressed: () {},
             style: OutlinedButton.styleFrom(
               foregroundColor: Colors.white,
-              backgroundColor: const Color.fromARGB(255, 131, 19, 151),
-              padding: const EdgeInsets.symmetric(
-                horizontal: 40,
-                vertical: 20,
-              ),
             ),
             child: const Text(
               'Start Quiz',

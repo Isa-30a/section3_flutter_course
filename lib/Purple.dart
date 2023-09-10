@@ -29,7 +29,7 @@ class Purple extends StatelessWidget {
             print('yes');
           },
           style: OutlinedButton.styleFrom(
-            primary: Colors.white,
+            foregroundColor: Colors.white,
             backgroundColor: const Color.fromARGB(255, 131, 19, 151),
             padding: const EdgeInsets.symmetric(
               horizontal: 40,

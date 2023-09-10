@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Purple extends StatelessWidget {
-  const Purple({super.key});
+class StartScreen extends StatelessWidget {
+  const StartScreen({super.key});
 
   final String message = 'Learn Flutter the fun way!';
 

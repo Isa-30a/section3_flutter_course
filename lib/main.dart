@@ -14,10 +14,15 @@ class MainApp extends StatelessWidget {
         home: Scaffold(
       body: Container(
         decoration: const BoxDecoration(
-            gradient: LinearGradient(colors: [
-          Color.fromRGBO(57, 13, 255, 0.412),
-          Color.fromRGBO(166, 13, 255, 0.412)
-        ])),
+          gradient: LinearGradient(
+            colors: [
+              Color.fromRGBO(57, 13, 255, 0.795),
+              Color.fromRGBO(166, 13, 255, 0.822)
+            ],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+        ),
         child: Purple('Learn Flutter the fun way!'),
       ),
     ));

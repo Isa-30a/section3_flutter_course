@@ -15,7 +15,10 @@ class _QuestionScreenState extends State<Question> {
     return SizedBox(
       width: double.infinity,
       child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-        const Text('The Question... '),
+        const Text(
+          'The Question... ',
+          style: TextStyle(color: Colors.white),
+        ),
         const SizedBox(height: 30),
         ElevatedButton(
           onPressed: () {},

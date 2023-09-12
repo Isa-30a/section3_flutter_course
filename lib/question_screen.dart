@@ -24,13 +24,13 @@ class _QuestionScreenState extends State<Question> {
           style: const TextStyle(color: Colors.white),
         ),
         const SizedBox(height: 30),
-        AnswerButton(currentQuestion.answers[0], () {}),
+        AnswerButton(answerText: currentQuestion.answers[0], onTap: () {}),
         const SizedBox(height: 30),
-        AnswerButton(currentQuestion.answers[1], () {}),
+        AnswerButton(answerText: currentQuestion.answers[1], onTap: () {}),
         const SizedBox(height: 30),
-        AnswerButton(currentQuestion.answers[2], () {}),
+        AnswerButton(answerText: currentQuestion.answers[2], onTap: () {}),
         const SizedBox(height: 30),
-        AnswerButton(currentQuestion.answers[3], () {})
+        AnswerButton(answerText: currentQuestion.answers[3], onTap: () {})
       ]),
     );
   }

@@ -29,7 +29,7 @@ class _QuestionScreenState extends State<Question> {
               style: const TextStyle(color: Colors.white),
               textAlign: TextAlign.center,
             ),
-            ...currentQuestion.answers.map(
+            ...currentQuestion.getShuffledList().map(
               (answer) {
                 return AnswerButton(
                   answerText: answer,

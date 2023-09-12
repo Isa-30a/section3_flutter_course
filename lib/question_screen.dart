@@ -18,22 +18,27 @@ class _QuestionScreenState extends State<Question> {
   Widget build(context) {
     return SizedBox(
       width: double.infinity,
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text(
-            currentQuestion.question,
-            style: const TextStyle(color: Colors.white),
-          ),
-          ...currentQuestion.answers.map(
-            (answer) {
-              return AnswerButton(
-                answerText: answer,
-                onTap: () {},
-              );
-            },
-          ),
-        ],
+      child: Container(
+        margin: const EdgeInsets.all(40),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              currentQuestion.question,
+              style: const TextStyle(color: Colors.white),
+              textAlign: TextAlign.center,
+            ),
+            ...currentQuestion.answers.map(
+              (answer) {
+                return AnswerButton(
+                  answerText: answer,
+                  onTap: () {},
+                );
+              },
+            ),
+          ],
+        ),
       ),
     );
   }

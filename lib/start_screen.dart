@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen(this.startQuiz, {super.key});
@@ -20,9 +21,9 @@ class StartScreen extends StatelessWidget {
           const SizedBox(height: 80),
           Text(
             message,
-            style: const TextStyle(
+            style: GoogleFonts.poppins(
               fontSize: 24,
-              color: Color.fromARGB(255, 242, 235, 255),
+              color: Color.fromARGB(255, 220, 203, 253),
             ),
           ),
           const SizedBox(height: 30),

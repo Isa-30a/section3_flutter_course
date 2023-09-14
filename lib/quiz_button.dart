@@ -18,7 +18,7 @@ class AnswerButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(40),
         ),
       ),
-      onPressed: () {},
+      onPressed: onTap,
       child: Text(answerText),
     );
   }
